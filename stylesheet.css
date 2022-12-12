@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    float: none;
+	position: static;
+}
+.iphonever{
+    display: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+
+}
+header{
+    background-color: black;
+    height: 70px;
+    
+}
+.container{
+    width: 1440px;
+    
+}
+.header-left img{
+    width: 120px;
+    float: left;
+}
+.header-left h3{
+    color: azure;
+    padding-top: 21px;
+    float: left;
+}
+
+
+.swich-wrapper{
+    background-color: grey;
+    height: 70px;
+    text-align: center;
+}
+.swich-wrapper a{
+    padding: 0 75px;
+    background-color: white;
+    line-height: 70px;
+    display: inline-block;
+    color: black;
+    opacity: 0.6;
+    font-size: 20px;
+    transition: 0.3s;
+    font-family: "Arial Black";   
+}
+
+.swich-wrapper a:hover{
+    opacity: 1;
+}
+
+.Schedule-wrapper{
+    background-image: url(/img/shedule_back.JPG);
+    background-size: cover;
+    height: 700px;
+}
+
+.schedule-list{
+    width: 1300px;
+    background-color:rgba(0, 0, 0, 0.7);
+    height: 700px;
+    margin: auto;
+    padding-top: 30px;
+}
+.schedule-list h1{
+    font-size: 60px;
+    color: white;
+    font-family: Impact;
+    text-align: center;
+    transform: scale(1.5, 0.8);
+    padding-top: 30px;
+}
+.schedule-list h2{
+    font-size: 60px;
+    color: azure;
+    text-align: center;
+    padding-top: 110px;
+    font-family: "Hiragino Mincho ProN";
+    padding-bottom: 110px;
+}
+
+.message {
+    position: relative;
+    float: right;
+    padding-right: 140px;
+}
+
+.message img{
+    width: 300px;
+}
+
+.message h3{
+position: absolute;
+top: 30px;
+left:10px;
+color: azure;
+font-family: cursive;
+font-size: 40px;
+width: 1300px;
+}
+
+footer{
+    width: 1440px;
+    height: 80px;
+}
+
+.fotter-logo p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
