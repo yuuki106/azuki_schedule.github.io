@@ -87,11 +87,12 @@ header{
 .message {
     position: relative;
     float: right;
-    padding-right: 140px;
+    padding-right: 10px;
 }
 
 .message img{
-    width: 300px;
+	width: 500px;
+	height: 150px;
 }
 
 .message h3{
