@@ -58,6 +58,7 @@ header{
     background-image: url(https://github.com/yuuki106/azuki_schedule.github.io/blob/main/shedule_back.JPG?raw=true);
     background-size: cover;
     height: 700px;
+    border-top: 20px solid black;
 }
 
 .schedule-list{
