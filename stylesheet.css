@@ -16,7 +16,6 @@ img {
 header{
     background-color: black;
     height: 70px;
-    
 }
 .container{
     width: 1440px;
@@ -37,6 +36,7 @@ header{
     background-color: grey;
     height: 70px;
     text-align: center;
+    
 }
 .swich-wrapper a{
     padding: 0 75px;
@@ -58,9 +58,9 @@ header{
     background-image: url(https://github.com/yuuki106/azuki_schedule.github.io/blob/main/shedule_back.JPG?raw=true);
     background-size: cover;
     height: 700px;
-    border-top: 20px solid black;
+    border-top: 20px solid black;   
+    
 }
-
 .schedule-list{
     width: 1300px;
     background-color:rgba(0, 0, 0, 0.7);
@@ -68,47 +68,54 @@ header{
     margin: auto;
     padding-top: 30px;
 }
+
 .schedule-list h1{
-    font-size: 60px;
-    color: white;
-    font-family: Impact;
+    font-size: 70px;
     text-align: center;
-    transform: scale(1.5, 0.8);
-    padding-top: 30px;
+    font-family: Impact;
+    color: azure;
+    padding-top: 20px;
 }
+
 .schedule-list h2{
     font-size: 60px;
     color: azure;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 60px;
     font-family: "Hiragino Mincho ProN";
     padding-bottom: 110px;
+    
+
 }
 
 .message {
     position: relative;
     float: right;
     padding-right: 10px;
+    
+    
 }
 
 .message img{
-	width: 500px;
-	height: 150px;
+    width: 500px;
+    height: 150px;
+    
 }
 
 .message h3{
-position: absolute;
-top: 30px;
-left:10px;
-color: azure;
-font-family: cursive;
-font-size: 40px;
-width: 1300px;
+   position: absolute;
+   top: 30px;
+   left:10px;
+   color: azure;
+   font-family: cursive;
+   font-size: 40px;
+
 }
 
 footer{
     width: 1440px;
     height: 80px;
+    
 }
 
 .fotter-logo p{
